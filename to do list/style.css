@@ -1,0 +1,185 @@
+* {
+    list-style: none;
+    text-align: start;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: bisque;
+}
+
+input {
+
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1%;
+    margin: 1%;
+}
+
+
+li {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 1%;
+    padding: 0%;
+
+
+}
+
+.remove-task {
+    margin: 2%;
+    background-color: rgb(124, 36, 36);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1%;
+
+    color: aliceblue;
+
+}
+
+#addtask {
+    background-color: brown;
+    border: 1px black solid;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 2%;
+
+
+}
+
+.bi-clipboard2-plus {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    font-size: larger;
+}
+
+.bi {
+    background-color: transparent;
+}
+
+ul {
+    position: relative;
+    left: 25%;
+    padding: 0;
+    width: 50%;
+}
+
+.heading {
+    width: 70vw;
+
+}
+
+@media (max-width:1200px) {
+
+
+.timer-display {
+    font-size: larger;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+    
+label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+    
+input{
+    margin: 2%;
+    padding: 2%;
+}
+
+    ul {
+        display: grid;
+
+        grid-gap: 1%;
+
+    }
+
+
+    .task-item {
+        display: grid;
+        width: 100%;
+    }
+
+    .remove-task {
+        display: flex;
+        margin: 2%;
+        width: 20%;
+        padding: 1%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .complete-task {
+        display: flex;
+        border: 1px solid black;
+        border-radius: 5px;
+        color: aliceblue;
+        padding: 1%;
+        margin: 2%;
+        width: 20%;
+       
+        align-items: center;
+        justify-content: center;
+    }
+
+    .start-btn {
+        display: flex;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        width: 20%;
+        padding: 1%;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+
+}
+
+
+.complete-task {
+    
+    background-color: rgb(36, 124, 36);
+    border: 1px solid black;
+    border-radius: 5px;
+    color: aliceblue;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin: 2%;
+}
+
+label {
+    display: flex;
+    align-items: center;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.start-btn {
+    background-color: rgb(36, 81, 124);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1%;
+    color: aliceblue;
+    margin: 2%;
+}
+
+.timer-display {
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
